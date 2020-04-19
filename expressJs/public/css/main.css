@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main_header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: rgb(152, 155, 117);
+}
+.main_nav {
+  padding: 0;
+  margin: 0;
+}
+.main_nav_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+.main_nav_item {
+  margin: 1rem;
+}
+.main_nav_item a {
+  text-decoration: none;
+  color: #e4c435;
+}
+.main_nav_item a:hover,
+.main_nav_item a:active {
+  color: silver;
+  font-size: 1.2rem;
+}
+.main_nav_item a.active {
+  color: rgb(87, 87, 87);
+}
